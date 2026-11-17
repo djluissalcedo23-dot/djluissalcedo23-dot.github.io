@@ -40,7 +40,7 @@ body{background:linear-gradient(180deg,#fff 0%,#fff 38%,#fafbff 70%,#fff 100%)}
 .gear-info .text-link{color:#ffd39a;border-color:#8174b4;font-size:13px}
 .gear-icon{font-size:29px;color:#ffad7a}
 .about-quote{padding:0;overflow:hidden;background:#111831;border:0;box-shadow:0 20px 55px #1c265225}
-.about-real-photo{height:285px;object-fit:cover;object-position:50% 24%;width:100%;display:block}
+.about-real-photo{height:auto;object-fit:cover;object-position:50% 24%;width:100%;display:block}
 .about-photo-caption{display:flex;flex-direction:column;gap:2px;padding:18px 25px 22px;color:#fff}
 .about-photo-caption strong{font-size:17px;letter-spacing:1px}
 .about-photo-caption span{font-size:14px;color:#c8d3fa;font-weight:750}

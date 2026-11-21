@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="es">
 <head>
+<script>
+  if (window.location.search.includes("utm_source=chatgpt.com")) {
+    const cleanUrl = window.location.origin + window.location.pathname + window.location.hash;
+    window.history.replaceState({}, "", cleanUrl);
+  }
+</script>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#171b34">
